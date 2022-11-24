@@ -67,7 +67,7 @@ function a10a(){
                         d.type = typeDomain[0];
                     }
                 }
-                if(parseFloat(d['PRCP']) <= precipitationMin){
+                if(parseFloat(d['PRCP']) <= precipitationMin && parseFloat(d['PRCP']) > 0){
                     d['PRCP'] = precipitationMin.toString();
                 }
             })
