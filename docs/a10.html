@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Line</title>
+</head>
+<body>
+
+
+<p>
+<table>
+    <tr>
+        <th><b>Black Hat Visualization</b></th>
+        <th><b>White Hat Visualization</b></th>
+    </tr>
+    <tr>
+        <td><div id="a10a"></div></td>
+        <td><div id="a10b"></div></td>
+    </tr>
+    <tr>
+        <td>
+            <p>
+                <b>List of changes:</b>
+            </p>
+            <p>
+            <ul>
+                <li>
+                    An scale that starts with non-zero size bubble, which would make near-to-zero precipitations more obvious.
+                </li>
+                <li>
+                    Bad color scale which doesn't highlight snow days.
+                </li>
+                <li>
+                    Title with bias from author.
+                </li>
+                <li>
+                    Visualization not clear at all with overlying bubbles.
+                </li>
+                <li>
+                    No evidence about source of data.
+                </li>
+            </ul>
+            </p>
+        </td>
+        <td>
+            <p>
+                <b>List of changes:</b>
+            </p>
+            <p>
+            <ul>
+                <li>
+                    A properly scaled bubble scale that maps zero precipitations with zero size.
+                </li>
+                <li>
+                    Good color scale with enough difference between two colors.
+                </li>
+                <li>
+                    Title without bias.
+                </li>
+                <li>
+                    Visualization of overlying bubbles are more clear with transparent bubbles.
+                </li>
+                <li>
+                    Source of data is mentioned.
+                </li>
+            </ul>
+            </p>
+        </td>
+        </td>
+    </tr>
+</table>
+</p>
+<p>
+    <h2>Description:</h2>
+</p>
+<p>
+    To get an <b>A(95)</b>, your assignment must contain:
+</p>
+<p>
+<ul>
+    <li>An intentionally misleading visualization that you create in
+        d3 that is a Black Hat visualization with a description of why it is misleading.</li>
+    <li>A redesigned (White Hat) visualization of the same data with a description of why it
+        is better and is not misleading. Your redesigned visualization must be made using d3.</li>
+    <li>Both the visualizations must be on the same HTML page.</li>
+</ul>
+</p>
+<p>
+    <a href="index.html"><b>[BACK TO HOMEPAGE]</b></a>
+</p>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+<script src="a10a.js"></script>
+<script src="a10b.js"></script>
+</body>
+</html>
